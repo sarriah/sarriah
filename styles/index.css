@@ -1,0 +1,46 @@
+    body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', 'Verdana', sans-serif;
+    color: #333;
+    text-align: left;
+                
+    }
+
+
+        
+    .splash {
+    width: 200%;
+    max-width: 950px;
+    position: absolute;
+    top: 20px;
+    
+    
+                            
+    }
+
+    .hey {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    padding-top: 80px;
+    padding-inline: 20px;
+    }
+
+
+    .webdev{
+    width: 650px;
+    padding-right: 20px;
+                
+    }           
+
+    .navBar {
+    align-items: center;
+
+    }
+
+    @media screen and (max-width: 600px) {
+    .column {
+    width: 100%;
+    }
+    }
+
+    
