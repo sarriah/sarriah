@@ -33,8 +33,39 @@
     }           
 
     .navBar {
-    align-items: center;
+        
+    }
 
+    .b1 {
+
+        background-color:#b587cf;
+        border:#333;
+        color: rgb(61, 44, 47);
+        padding: violet;
+        font-size: 20px;
+        cursor: pointer; 
+        border-radius: 5px;
+        
+    }
+
+    
+    .b1:hover {
+        color:#ffffff
+    }
+    .b2 {
+
+        background-color:#b587cf;
+        border:#333;
+        color: rgb(61, 44, 47);
+        padding: violet;
+        font-size: 20px;
+        cursor: pointer; 
+        border-radius: 5px;
+        
+    }
+
+    .b2:hover {
+        color:#ffffff
     }
 
     @media screen and (max-width: 600px) {
