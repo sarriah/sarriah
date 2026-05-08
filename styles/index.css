@@ -1,77 +1,96 @@
-    body {
+
+
+body {
     background-color: #f0f0f0;
     font-family: 'Arial', 'Verdana', sans-serif;
     color: #333;
     text-align: left;
-                
-    }
+
+       /* later i might switch to centered layout for a portfolio look */
+}
 
 
-        
-    .splash {
+
+.splash {
     width: 200%;
     max-width: 950px;
     position: absolute;
     top: 20px;
-    
-    
-                            
-    }
 
-    .hey {
+    /* this is risky for responsive design might be bad for responsivie design idk */
+       
+}
+
+
+
+.hey {
     font-size: 2.5em;
     margin-bottom: 10px;
     padding-top: 80px;
     padding-inline: 20px;
-    }
+
+    /* padding-top is pushing layout down manually
+        flexbox could prolly handle spacing cleaner */
+}
 
 
-    .webdev{
+
+.webdev {
     width: 650px;
     padding-right: 20px;
-                
-    }           
 
-    .navBar {
-        
-    }
+    /* fixed width = might not scale well on small screens
+       i will consider max-width later */
+}
 
-    .b1 {
 
-        background-color:#b587cf;
-        border:#333;
-        color: rgb(61, 44, 47);
-        padding: violet;
-        font-size: 20px;
-        cursor: pointer; 
-        border-radius: 5px;
-        
-    }
 
-    
-    .b1:hover {
-        color:#ffffff
-    }
-    .b2 {
 
-        background-color:#b587cf;
-        border:#333;
-        color: rgb(61, 44, 47);
-        padding: violet;
-        font-size: 20px;
-        cursor: pointer; 
-        border-radius: 5px;
-        
-    }
+.navBar {
+    /* empty right now lol*/
+}
 
-    .b2:hover {
-        color:#ffffff
-    }
 
-    @media screen and (max-width: 600px) {
+
+
+.b1 {
+    background-color: #b587cf;
+    border: 1px #333;
+    color: rgb(61, 44, 47);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.b1:hover {
+    color: #ffffff;
+}
+
+
+/* duplicated styling (b2 is same as b1)
+   later i might just put them into a class or container */
+.b2 {
+    background-color: #b587cf;
+    border: #333;
+    color: rgb(61, 44, 47);
+    padding: violet;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.b2:hover {
+    color: #ffffff;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
     .column {
-    width: 100%;
-    }
-    }
+        width: 100%;
 
-    
+        /* this class doesn't exist in my HTML yet
+           lol */
+    }
+}
