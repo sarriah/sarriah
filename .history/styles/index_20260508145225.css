@@ -1,5 +1,16 @@
 
 /* doing mobile design FIRST because of issues with responsive design i think this will be better*/
+body {
+    margin: 0;
+    font-family:  Consolas, Arial, Verdana, sans-serif;
+    background: #f7f3f9;
+    color: #333;
+    text-align: center;
+
+       /* later i might switch to centered layout for a portfolio look */
+}
+
+
 
 .splash {
     
@@ -17,7 +28,6 @@
 .hey {
     font-size: 2.2em;
     margin: 20px 0;
-    
 
      /* moved from left to center *//
 }
@@ -25,7 +35,7 @@
 
 
 .webdev {
-    width: 90%;
+    width: 80%;
     max-width: 300px;
     margin: 20px auto;
     display: block;
@@ -55,6 +65,10 @@ nav {
 }
 
 
+.navBar:hover {
+    color: #b587cf;
+}
+
 
 header {
     padding: 40px 20px;
@@ -75,6 +89,10 @@ button { /* so those b1 and b2 classes from earlier were useless i forgot we cou
     transition: 0.2s ease;
 }
 
+button:hover {
+    background-color: #9f6fc0;
+    transform: translateY(-2px);
+}
 
 
 
