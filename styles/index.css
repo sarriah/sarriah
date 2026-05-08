@@ -13,86 +13,112 @@ body {
 
 
 .splash {
-    width: 200%;
-    max-width: 950px;
-    position: absolute;
-    top: 20px;
-
-    /* this is risky for responsive design might be bad for responsivie design idk */
+    
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+    opacity: 0.9; 
+    /*using block display lets them sit less awkwardly */
        
 }
 
 
 
 .hey {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    padding-top: 80px;
-    padding-inline: 20px;
+    font-size: 2.2em;
+    margin: 20px 0;
 
-    /* padding-top is pushing layout down manually
-        flexbox could prolly handle spacing cleaner */
+     /* moved from left to center *//
 }
 
 
 
 .webdev {
-    width: 650px;
-    padding-right: 20px;
+    width: 80%;
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
 
-    /* fixed width = might not scale well on small screens
-       i will consider max-width later */
+    /* max width instead of min width */
 }
 
 
 
+/* using nav tag instead of navBar class for formatting*/ 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    background: #ffffffcc;
+    backdrop-filter: blur(5px);
+    position: sticky;
+    top: 0;
+}
 
-.navBar {
-    /* empty right now lol*/
+.navBar { /* the class is for the design not the formatting */
+    text-decoration: none;
+    color: #5a3d5c;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 
+.navBar:hover {
+    color: #b587cf;
+}
 
 
-.b1 {
+header {
+    padding: 40px 20px;
+}
+
+
+button { /* so those b1 and b2 classes from earlier were useless i forgot we could just use the selector lol*/
     background-color: #b587cf;
-    border: 1px #333;
-    color: rgb(61, 44, 47);
-    font-size: 20px;
+    border-width: 2px; /* modifying border using these 3 different border properties */
+    border-style: solid;
+    border-color: rgb(130, 15, 141);
+    color: white;
+    padding: 12px 18px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 8px;
     cursor: pointer;
-    border-radius: 5px;
+    transition: 0.2s ease;
 }
 
-.b1:hover {
-    color: #ffffff;
-}
-
-
-/* duplicated styling (b2 is same as b1)
-   later i might just put them into a class or container */
-.b2 {
-    background-color: #b587cf;
-    border: #333;
-    color: rgb(61, 44, 47);
-    padding: violet;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.b2:hover {
-    color: #ffffff;
+button:hover {
+    background-color: #9f6fc0;
+    transform: translateY(-2px);
 }
 
 
 
+/* new responsive design chrome dev tools tested lol */ 
+/* Tablet  */
+@media (min-width: 600px) {
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
+    .hey {
+        font-size: 2.8em;
+    }
 
-        /* this class doesn't exist in my HTML yet
-           lol */
+    .webdev {
+        max-width: 350px;
+    }
+}
+
+/* Desktop  */
+@media (min-width: 900px) {
+
+    header {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .splash {
+        max-width: 600px;
     }
 }
 
