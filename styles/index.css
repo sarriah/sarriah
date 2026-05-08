@@ -1,10 +1,11 @@
 
-
+/* doing mobile design FIRST because of issues with responsive design i think this will be better*/
 body {
-    background-color: #f0f0f0;
-    font-family: 'Arial', 'Verdana', sans-serif;
+    margin: 0;
+    font-family: Arial, Verdana, sans-serif;
+    background: #f7f3f9;
     color: #333;
-    text-align: left;
+    text-align: center;
 
        /* later i might switch to centered layout for a portfolio look */
 }
@@ -94,3 +95,4 @@ body {
            lol */
     }
 }
+
