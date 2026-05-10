@@ -7,18 +7,10 @@
     - [Linkedin](https://www.linkedin.com/in/sarriah-goodridge-83776b403) 
 - 😄 Pronouns: she/her
 
-## My Tech Stack
+## My Languages
 
-- Languages I know: 
-    - C#
-    - HTML 
-    - CSS 
-    - JS
+C#, HTML, CSS, JS
 
 ## My Favourite Tools
 
-- Visual Studio/VsCode 
-- GitHub 
-- Git
-- Cisco Packet Tracer
-- Office 365
+VsCode, Git,  Cisco Packet Tracer, Office 365
