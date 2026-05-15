@@ -57,12 +57,6 @@ nav {
     font-size: 16px;
 }
 
-nav a {
-    font: inherit;
-    color: inherit;
-    text-decoration: none;
-}
-
 
 
 
@@ -83,12 +77,6 @@ button { /* so those b1 and b2 classes from earlier were useless i forgot we cou
     border-radius: 8px;
     cursor: pointer;
     transition: 0.2s ease;
-}
-
-.project-buttons{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
 
 

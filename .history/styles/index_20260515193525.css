@@ -85,12 +85,6 @@ button { /* so those b1 and b2 classes from earlier were useless i forgot we cou
     transition: 0.2s ease;
 }
 
-.project-buttons{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
 
 
 
